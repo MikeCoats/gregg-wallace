@@ -1,0 +1,15 @@
+[Unit]
+Description=What is Gregg Wallace doing?
+Documentation=https://github.com/mikecoats/gregg-wallace
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+Type=exec
+User=gregg-wallace
+Group=gregg-wallace
+WorkingDirectory=/opt/gregg-wallace
+ExecStart=/opt/gregg-wallace/.venv/bin/python main.py
+
+[Install]
+WantedBy=multi-user.target
