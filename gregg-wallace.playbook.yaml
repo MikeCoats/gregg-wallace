@@ -92,6 +92,15 @@
         - sites-enabled
       become: true
 
+    - name: Ensure the caddy log directory exists
+      ansible.builtin.file:
+        path: /var/log/caddy
+        state: directory
+        owner: caddy
+        group: caddy
+        mode: 'u=rwx,g=rx,o=rx'
+      become: true
+
     - name: Copy over the caddyfile
       ansible.builtin.copy:
         src: ./gregg-wallace.caddyfile

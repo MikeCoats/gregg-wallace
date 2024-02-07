@@ -1,3 +1,6 @@
 what-is-gregg-wallace-doing.mikecoats.xyz, what-is-gregg-wallace-doing.localhost {
 	reverse_proxy :8002
+	log {
+		output file /var/log/caddy/gregg-wallace.log
+	}
 }
