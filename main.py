@@ -27,7 +27,7 @@ __maintainer__ = "Mike Coats"
 __email__ = "i.am@mikecoats.com"
 
 __status__ = "Production"
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 
 import asyncio
 from datetime import datetime
@@ -69,7 +69,8 @@ schedule_entries = [
         730,
         1030,
         """
-        living his best #influencer life, ticking off his to-do list while walking off his bloated belly. #hustle""",
+        living his best #influencer life, ticking off his to-do list while walking off
+        his bloated belly. #hustle""",
     ],
     [
         1030,
@@ -151,7 +152,11 @@ async def home(request: Request):
 
     return templates.TemplateResponse(
         "index.html",
-        {"request": request, "time": f"{now.hour}:{now.minute}", "schedule": schedule},
+        {
+            "request": request,
+            "time": f"{now.hour}:{now.minute:02}",
+            "schedule": schedule,
+        },
     )
 
 
