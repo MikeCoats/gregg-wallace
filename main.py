@@ -27,7 +27,7 @@ __maintainer__ = "Mike Coats"
 __email__ = "i.am@mikecoats.com"
 
 __status__ = "Production"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 import asyncio
 from datetime import datetime
