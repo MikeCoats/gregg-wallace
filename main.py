@@ -69,7 +69,7 @@ schedule_entries = [
         730,
         1030,
         """
-        girlbossing his to-do list while walking off his bloated belly. #hustle""",
+        living his best #influencer life, ticking off his to-do list while walking off his bloated belly. #hustle""",
     ],
     [
         1030,
