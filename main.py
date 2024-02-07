@@ -27,7 +27,7 @@ __maintainer__ = "Mike Coats"
 __email__ = "i.am@mikecoats.com"
 
 __status__ = "Production"
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 
 import asyncio
 from datetime import datetime
@@ -162,7 +162,7 @@ async def home(request: Request):
 
 async def main():
     """When the module is run directly, hook up a uvicorn server and host the app."""
-    config = uvicorn.Config("main:app", host="0.0.0.0", port=8002, log_level="info")
+    config = uvicorn.Config("main:app", host="localhost", port=8002, log_level="info")
     server = uvicorn.Server(config)
     await server.serve()
 
