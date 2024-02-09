@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 """What is Gregg Wallace doing?
 
-A web app that let's you know what Gregg Wallace is up to based on his interview in The
-Torygraph.
+Based on his published schedule in the Torygraph which was then ridiculed on social
+media until the Grauniad reported on it, this web app will tell you exactly what Gregg
+Wallace is doing at any moment in time. Marvelous!
 
 This program is free software: you can redistribute it and/or modify it under the terms
 of the GNU Affero General Public License as published by the Free Software Foundation,

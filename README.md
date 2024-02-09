@@ -2,7 +2,12 @@
 
 [what-is-gregg-wallace-doing.mikecoats.xyz](https://what-is-gregg-wallace-doing.mikecoats.xyz)
 
-A web app
+Based on his
+[published schedule in the Torygraph](https://www.telegraph.co.uk/tv/2024/02/03/my-saturday-gregg-wallace-autistic-son-weight-loss-alcohol/)
+which was then ridiculed on social media until
+[the Grauniad reported on it](https://www.theguardian.com/tv-and-radio/2024/feb/06/its-alan-partridge-meets-gwyneth-paltrow-how-gregg-wallace-became-the-ultimate-lifestyle-guru),
+this web app will tell you exactly what Gregg Wallace is doing at any moment in time.
+Marvelous!
 
 ## For developers
 
